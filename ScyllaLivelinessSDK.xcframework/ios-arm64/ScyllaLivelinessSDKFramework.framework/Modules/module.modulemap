@@ -1,0 +1,6 @@
+framework module ScyllaLivelinessSDKFramework {
+  umbrella header "ScyllaLivelinessSDKFramework.h"
+  export *
+
+  module * { export * }
+}

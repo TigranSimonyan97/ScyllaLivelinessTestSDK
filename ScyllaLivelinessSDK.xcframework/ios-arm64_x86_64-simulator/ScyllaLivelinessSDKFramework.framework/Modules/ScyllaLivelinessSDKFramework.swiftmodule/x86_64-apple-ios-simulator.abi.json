@@ -1,0 +1,126 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ScyllaLivelinessSDKFramework",
+    "printedName": "ScyllaLivelinessSDKFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScyllaLivelinessSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivelinessSDK",
+        "printedName": "LivelinessSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivelinessSDK",
+                "printedName": "ScyllaLivelinessSDKFramework.LivelinessSDK",
+                "usr": "s:28ScyllaLivelinessSDKFramework0B3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28ScyllaLivelinessSDKFramework0B3SDKC6sharedACvpZ",
+            "mangledName": "$s28ScyllaLivelinessSDKFramework0B3SDKC6sharedACvpZ",
+            "moduleName": "ScyllaLivelinessSDKFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Custom"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivelinessSDK",
+                    "printedName": "ScyllaLivelinessSDKFramework.LivelinessSDK",
+                    "usr": "s:28ScyllaLivelinessSDKFramework0B3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28ScyllaLivelinessSDKFramework0B3SDKC6sharedACvgZ",
+                "mangledName": "$s28ScyllaLivelinessSDKFramework0B3SDKC6sharedACvgZ",
+                "moduleName": "ScyllaLivelinessSDKFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "testMethod",
+            "printedName": "testMethod()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ScyllaLivelinessSDKFramework0B3SDKC10testMethodyyF",
+            "mangledName": "$s28ScyllaLivelinessSDKFramework0B3SDKC10testMethodyyF",
+            "moduleName": "ScyllaLivelinessSDKFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:28ScyllaLivelinessSDKFramework0B3SDKC",
+        "mangledName": "$s28ScyllaLivelinessSDKFramework0B3SDKC",
+        "moduleName": "ScyllaLivelinessSDKFramework",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
